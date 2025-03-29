@@ -1,4 +1,3 @@
-/*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu__changeclass'),
       navToggle = document.getElementById('nav-burger__changeclass'),
       navClose = document.getElementById('nav-close__changeclass')
@@ -16,7 +15,7 @@ if(navClose){
 }
 
 
-/*=============== REMOVE MENU MOBILE ===============*/
+
 const navLink = document.querySelectorAll('.menu__link__changeclass')
 
 const linkAction = () =>{
@@ -25,17 +24,4 @@ const linkAction = () =>{
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*=============== ADD BLUR HEADER ===============*/
-
-
-/*=============== SWIPER PLANETS ===============*/ 
-
-
-/*=============== SHOW SCROLL UP ===============*/ 
-
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
 

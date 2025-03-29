@@ -194,6 +194,8 @@ img {
 
 .home__container__changeclass {
   text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .main__btns__changeclass {
@@ -235,9 +237,6 @@ img {
   .home__container__changeclass {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  }
-
-  .home__container__changeclass {
     text-align: initial;
   }
 
